@@ -1,3 +1,302 @@
 html {
 font-family: 'Roboto', sans-serif;
 }
+
+header {
+  width: 100vw;
+}
+
+.header-button {
+  background-color: #4DC3F9;
+  width: 235px;
+  height: 40px;
+  margin: 30px auto;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  display: block;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header img {
+  width: 150px;
+  margin: 30px auto;
+  display: block;
+}
+
+.cohort-picture {
+  width: 100vw;
+  height: 410px;
+  background-image: url("../img/squad.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -110px;
+}
+
+.cohort-picture h2{
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.intro-program h1 {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2D354C;
+  margin-top: 30px;
+}
+
+.intro-program p {
+  font-size: 18px;
+  color: #818693;
+  line-height: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+#bootcamp-program {
+  padding: 0 35px;
+}
+
+.card-program {
+  background-color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 35px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-time {
+  font-size: 14px;
+  color: #EC3A35;
+  letter-spacing: -0.02em;
+  line-height: 0px;
+}
+
+.card-title {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2D354C;
+}
+
+.card-schedule {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #818693;
+}
+
+#bootcamp-figures {
+  margin-top: 87px;
+  padding: 20px;
+  background-color: #4DC3F9;
+}
+
+h2 {
+  font-family: 'Roboto Mono';
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 0;
+}
+
+#bootcamp-figures h2 {
+  color: #FFFFFF;
+}
+
+.figures-wrapper {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.figures-wrapper .figure {
+  flex: 0 0 50%;
+  text-align: center;
+  font-family: 'Roboto Mono';
+  font-weight: 500;
+  font-size: 90px;
+  color: #2D354C;
+  margin-bottom: 20px;
+}
+
+.figures-wrapper .figure span {
+  font-size: 20px;
+  color: #2D354C;
+  display: block;
+  text-transform: uppercase;
+}
+
+#bootcamp-projects h2 {
+  color: #000000;
+}
+
+.project-wrapper {
+  padding: 0 35px;
+}
+
+.card-project {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.card-project img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-project h3 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #2D354C;
+  padding: 0 0 20px 20px;
+}
+
+.student-wrapper, .teacher-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.student-section {
+  padding: 8px;
+}
+
+.student-name {
+  font-family: 'Roboto Mono';
+  font-size: 18px;
+  text-align: center;
+  color: #2D354C;
+  margin-bottom: 0;
+}
+
+.student-tagline {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #818693;
+  text-align: center;
+}
+
+#teacher-section, #bootcamp-projects {
+  background-color: #F8F8F8;
+}
+
+#student-section {
+  background-color: #Ffffff;
+}
+
+footer {
+  background-color: #4DC3F9;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.footer-button {
+  width: 264px;
+  height: 44px;
+  margin: 30px auto;
+  display: block;
+  border: none;
+  border-radius: 6px;
+  color: #4DC3F9;
+}
+
+@media all and (min-width: 750px) {
+
+  .cohort-picture {
+    height: 620px;
+  }
+
+  .cohort-picture h2 {
+    font-size: 70px;
+  }
+
+  .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .card-program {
+    width: 42%;
+  }
+
+  .intro-program p {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .figures-wrapper .figure {
+    flex-basis: 25%;
+    padding-bottom: 30px;
+  }
+
+  .project-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .card-project {
+    width: 30%;
+    margin: 20px 10px;
+  }
+
+  .card-project h3 {
+    padding: 0 0 0 20px;
+  }
+
+  .student-wrapper, .teacher-wrapper {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .student, .teacher {
+    padding: 20px;
+  }
+
+  .header-button {
+    position: absolute;
+    right: 40px;
+    top: 8px;
+  }
+
+}
